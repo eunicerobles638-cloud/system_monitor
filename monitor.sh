@@ -1,6 +1,11 @@
-#!/bin/bash
-echo "Welcome to System Monitor v2"
-echo -n "Please enter your name: "
+#!/bin/bash/
+echo "---Server Welcome System v3---"
+echo -n "Enter Employee name: "
 read name
-echo "Thank you, $name! We are now monitoring your system."
-
+echo -n "Enter Department: "
+read dept
+echo "------------------------------"
+echo "Welcome to the team, $name from $dept!"
+echo "Current System Date and Time:"
+date
+echo "--------------------------------------"
